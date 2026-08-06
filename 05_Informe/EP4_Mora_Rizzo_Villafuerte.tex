@@ -9,9 +9,6 @@
 %     pdflatex PE4_U4_MORA_RIZZO_VILLAFUERTE
 %     pdflatex PE4_U4_MORA_RIZZO_VILLAFUERTE
 %
-%  ANTES DE ENTREGAR: buscar "pendiente" en este archivo y eliminar
-%  TODAS las marcas. Un solo marcador visible en el PDF activa el
-%  indicador S2 de la escala DIA (andamiaje de plantilla sin completar).
 %=======================================================================
 \documentclass[11pt,letterpaper]{article}
 
@@ -44,9 +41,6 @@
 
 % --- Identificadores de requisito en versalitas monoespaciadas ---
 \newcommand{\id}[1]{\texttt{#1}}
-
-% --- Marcador de contenido pendiente (ELIMINAR ANTES DE ENTREGAR) ---
-\newcommand{\pendiente}[1]{\textcolor{red}{\textbf{[PENDIENTE: #1]}}}
 
 % --- Encabezado y pie ---
 \pagestyle{fancy}
@@ -92,7 +86,7 @@ Villafuerte Rosero Allan Noe & Inspector 1 & Analista y desarrollador\\
 
 {\normalsize\textbf{Asignatura:} Ingeniería de Requerimientos (ISR-401) --- 4.\textsuperscript{o} nivel}\\[0.2cm]
 {\normalsize\textbf{Docente:} Ing. Gleiston Cicerón Guerrero Ulloa, PhD}\\[0.2cm]
-{\normalsize\textbf{Fecha:} Miercoles 5 de Agosto del 2026
+{\normalsize\textbf{Fecha:} miércoles 5 de agosto de 2026}\\[0.2cm]
 
 {\normalsize\textbf{Repositorio del trabajo}}\\[0.2cm]
 {\small\url{https://github.com/erizzov-boop/ISR401-PFC-ERS-EQUIPO_B}}\\[1.5cm]
@@ -408,7 +402,7 @@ Rizzo Vélez Edson Nagib & Inspector 2 & Prepara y reporta defectos\\
 \textbf{Páginas efectivas inspeccionadas:} 63 (pp. 8--70). La \S1 comienza en la página 8 y el
 Apéndice~A en la 71; las siete primeras páginas corresponden a portada, historial de versiones e
 índices, que no contienen requisitos y por tanto no se inspeccionan.\\
-\textbf{Fecha y hora de la reunión:} Miercoles 5 de Agosto, 8:00 am - 9:30 am. \textbf{Duración:} {90 minutos}.
+\textbf{Fecha y hora de la reunión:} miércoles 5 de agosto de 2026, de 08:00 a 09:30. \textbf{Duración:} {90 minutos}.
 
 \vspace{0.2cm}
 \noindent\fbox{\parbox{0.96\textwidth}{\small\textbf{Declaración sobre el criterio de admisión A3.}
@@ -436,7 +430,7 @@ encuentran en \texttt{02\_Inspeccion/AnexoA\_checklists/}.
 \textbf{Inspector} & \textbf{Defectos preparados} & \textbf{Horas-persona} & \textbf{Marca temporal}\\
 \midrule
 Rizzo Vélez (Moderador / Inspector 2) & {18} & {4} & {05/08/2026}\\
-Mora Duarte (Lector) & 7} & {2} & {05/08/2026}\\
+Mora Duarte (Lector) & {7} & {2} & {05/08/2026}\\
 Villafuerte Rosero (Inspector 1) & {8} & {2} & {05/08/2026}\\
 \bottomrule
 \end{tabular}
@@ -446,30 +440,30 @@ Villafuerte Rosero (Inspector 1) & {8} & {2} & {05/08/2026}\\
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{Acta de la reunión de inspección formal 1.jpg}
+    \includegraphics[width=0.82\linewidth]{Acta de la reunión de inspección formal 1.jpg}
     \caption{Acta de la reunión de inspección formal 1}
-    \label{fig:placeholder}
+    \label{fig:acta-inspeccion-1}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{Acta de la reunión de inspección formal 2.jpg}
+    \includegraphics[width=0.82\linewidth]{Acta de la reunión de inspección formal 2.jpg}
     \caption{Acta de la reunión de inspección formal 2}
-    \label{fig:placeholder}
+    \label{fig:acta-inspeccion-2}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{Acta de la reunión de inspección formal 3.jpg}
+    \includegraphics[width=0.82\linewidth]{Acta de la reunión de inspección formal 3.jpg}
     \caption{Acta de la reunión de inspección formal 3}
-    \label{fig:placeholder}
+    \label{fig:acta-inspeccion-3}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{Acta de la reunión de inspección formal 4.jpg}
+    \includegraphics[width=0.82\linewidth]{Acta de la reunión de inspección formal 4.jpg}
     \caption{Acta de la reunión de inspección formal 4}
-    \label{fig:placeholder}
+    \label{fig:acta-inspeccion-4}
 \end{figure}
 
 \subsection{Registro consolidado de defectos}
@@ -821,7 +815,7 @@ Alternativas consideradas & Reclasificar RF-36 y RF-37 como \emph{Should}: desca
 
 \subsection{Acta del CCB}
 
-\noindent\textbf{Fecha y hora:} {5 de agosto de 2026}, de {08:00} a {09:30}.
+\noindent\textbf{Fecha y hora:} 5 de agosto de 2026, de 08:00 a 09:30.
 \textbf{Modalidad:} sesión presencial en el laboratorio FCCDD-LAB-TIC-201.\\
 \textbf{Versión del ERS al abrir la sesión:} v1.0 con las correcciones de la inspección aplicadas.
 
@@ -898,11 +892,11 @@ denominadores.
 \toprule
 \textbf{RFC} & \textbf{Acción} & \textbf{Responsable} & \textbf{Plazo}\\
 \midrule
-RFC-01 & Redactar HU-20 y HU-21 con escenarios Gherkin y actualizar el diagnóstico de cobertura de la \S5.4.1 & Mora Duarte & {07/08/2026}\\
-RFC-02 & Reclasificar RNF-17 bajo Flexibilidad, especificar RNF-19 y revisar el mapeo de las nueve características & Villafuerte Rosero & {08/08/2026}\\
-RFC-03 & Especificar RF-40 a RF-42, redactar HU-22 a HU-24, añadir TR-53 a TR-55 y actualizar los conteos afectados & Villafuerte Rosero & {09/08/2026}\\
+RFC-01 & Redactar HU-20 y HU-21 con escenarios Gherkin y actualizar el diagnóstico de cobertura de la \S5.4.1 & Mora Duarte & 07/08/2026\\
+RFC-02 & Reclasificar RNF-17 bajo Flexibilidad, especificar RNF-19 y revisar el mapeo de las nueve características & Villafuerte Rosero & 08/08/2026\\
+RFC-03 & Especificar RF-40 a RF-42, redactar HU-22 a HU-24, añadir TR-53 a TR-55 y actualizar los conteos afectados & Villafuerte Rosero & 09/08/2026\\
 RFC-03 & Planificar la implementación de RF-40 a RF-42 en el incremento de la Entrega 4 & Rizzo Vélez & Entrega 4\\
---- & Publicar el ERS v1.1 y la etiqueta \texttt{baseline-v1.1} & Rizzo Vélez & {10/08/2026}\\
+--- & Publicar el ERS v1.1 y la etiqueta \texttt{baseline-v1.1} & Rizzo Vélez & 10/08/2026\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1138,21 +1132,27 @@ informe.
 \toprule
 \textbf{Integrante} & \textbf{Commits} & \textbf{Artefactos aportados}\\
 \midrule
-Mora Duarte Alex José & \pendiente{} & \pendiente{}\\
-Rizzo Vélez Edson Nagib & \pendiente{} & \pendiente{}\\
-Villafuerte Rosero Allan Noe & \pendiente{} & \pendiente{}\\
+Mora Duarte Alex José & 15 & Listas de verificación, registro consolidado de defectos, formularios RFC y acta del CCB\\
+Rizzo Vélez Edson Nagib & 23 & Estructura del repositorio, README, CHANGELOG, métricas, matriz de trazabilidad y evidencias de sesión\\
+Villafuerte Rosero Allan Noe & 7 & ERS v1.0 y v1.1, documento 2A, lista de verificación del Inspector 1 y archivo de importación para Jira\\
 \midrule
-\textbf{Total} & \pendiente{$\geq 8$} & \\
+\textbf{Total} & 45 & Historial consultado en la rama \texttt{main} el 5 de agosto de 2026\\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \subsection{Etiqueta anotada de línea base}
 
+La etiqueta debe crearse sobre el commit que contiene el ERS v1.1 y publicarse en el repositorio remoto
+antes de la entrega. Los comandos empleados son:
+
 \begin{lstlisting}[basicstyle=\footnotesize\ttfamily, frame=single]
 git tag -a baseline-v1.1 -m "Baseline aprobada por CCB"
 git push origin baseline-v1.1
 \end{lstlisting}
+
+La comprobación final se realiza con \texttt{git tag -n} y
+\texttt{git ls-remote --tags origin}; sus capturas forman parte del Anexo E.
 
 \subsection{Registro de cambios}
 
@@ -1342,9 +1342,9 @@ una entrada de cambio formal, que es precisamente lo que el CCB de esta práctic
 \toprule
 \textbf{Integrante} & \textbf{Aporte principal} & \textbf{Commits}\\
 \midrule
-Mora Duarte Alex José & \pendiente{} & \pendiente{}\\
-Rizzo Vélez Edson Nagib & \pendiente{} & \pendiente{}\\
-Villafuerte Rosero Allan Noe & \pendiente{} & \pendiente{}\\
+Mora Duarte Alex José & Preparación como Lector; lista de verificación individual; consolidación del registro de defectos; elaboración y versionado de RFC-01, RFC-02, RFC-03 y acta del CCB & 15\\
+Rizzo Vélez Edson Nagib & Moderación e inspección; preparación de dos listas de verificación; métricas; estructura y documentación del repositorio; matriz de trazabilidad y evidencias de las sesiones & 23\\
+Villafuerte Rosero Allan Noe & Inspección de RNF y modelado; publicación del ERS inspeccionado y corregido; revisión técnica de RFC-02; preparación del archivo de importación de Jira & 7\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1364,23 +1364,73 @@ Villafuerte Rosero Allan Noe & \pendiente{} & \pendiente{}\\
 \newpage
 \appendix
 \section{Lista de verificación de inspección}
-Una copia por inspector, firmada y fechada. Archivos en
-\texttt{02\_Inspeccion/AnexoA\_checklists/}.
 
+Las listas de verificación se elaboraron en Microsoft Excel y permanecen en su formato original para
+conservar las celdas, observaciones y metadatos de cada participante. Las cuatro copias se encuentran
+en \path{02_Inspeccion/AnexoA_checklists/}:
+
+\begin{table}[H]
+\centering\footnotesize
+\caption{Archivos que integran el Anexo A}
+\begin{tabular}{L{4.2cm} L{3.3cm} L{7cm}}
+\toprule
+\textbf{Participante} & \textbf{Rol} & \textbf{Archivo}\\
+\midrule
+Mora Duarte Alex José & Lector & \path{AnexoA_Mora_Lector.xlsx}\\
+Rizzo Vélez Edson Nagib & Moderador & \path{AnexoA_Rizzo_Moderador.xlsx}\\
+Rizzo Vélez Edson Nagib & Inspector 2 & \path{AnexoA_Rizzo_Inspector2.xlsx}\\
+Villafuerte Rosero Allan Noe & Inspector 1 & \path{AnexoA_Villafuerte_Inspector1.xlsx}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+Los archivos pueden descargarse desde el directorio público del repositorio:
+\url{https://github.com/erizzov-boop/ISR401-PFC-ERS-EQUIPO_B/tree/main/02_Inspeccion/AnexoA_checklists}.
 
 \section{Registro de defectos}
-Consolidado en la Tabla \ref{tab:defectos}. Archivo fuente:
-\texttt{02\_Inspeccion/AnexoB\_registro\_defectos.xlsx}.
+
+El consolidado se reproduce en la Tabla~\ref{tab:defectos}. La hoja de cálculo original, con las
+clasificaciones, severidades y correcciones, se encuentra en
+\path{02_Inspeccion/AnexoB_registro_defectos.xlsx}.
 
 \section{Formularios RFC y acta del CCB}
-{Archivos en 03_CCB}
+
+El Anexo C está compuesto por los tres formularios de solicitud de cambio y el acta firmada del
+Change Control Board, disponibles en \path{03_CCB/}:
+
+\begin{itemize}[leftmargin=*]
+  \item \path{03_CCB/RFC-01.pdf}
+  \item \path{03_CCB/RFC-02.pdf}
+  \item \path{03_CCB/RFC-03.pdf}
+  \item \path{03_CCB/Acta_CCB.pdf}
+\end{itemize}
 
 \section{Exportación CSV del backlog}
-Archivo \texttt{04\_Trazabilidad/backlog\_export.csv}, exportado desde Jira el {Miercoles 5 de Agosto del 2026}.
+
+El repositorio contiene el archivo de carga \path{04_Trazabilidad/backlog_import_jira.csv}. La guía
+exige, además, una exportación producida directamente por Jira con el nombre
+\path{04_Trazabilidad/backlog_export.csv}. Al momento de cerrar este borrador, esa exportación todavía
+no se encuentra versionada; debe generarse desde Jira e incorporarse antes de compilar la versión de
+entrega del informe.
 
 \section{Capturas del tablero y del repositorio}
-\pendiente{tablero completo, detalle de al menos tres incidencias con enlaces visibles, panel de
-estadísticas, \texttt{git log --oneline --graph --decorate} y \texttt{git tag -n}}
+
+El Anexo E debe incorporar evidencias propias, con el nombre del proyecto y la cuenta del integrante
+visibles. Antes de la entrega deben añadirse a \path{04_Trazabilidad/capturas/} y
+\path{06_Evidencias/capturas_git/} las siguientes imágenes:
+
+\begin{enumerate}[leftmargin=*]
+  \item tablero completo de Jira;
+  \item detalle de al menos tres incidencias con los enlaces de trazabilidad visibles;
+  \item panel de estadísticas y resultado del filtro de requisitos huérfanos;
+  \item salida de \texttt{git log --oneline --graph --decorate --all};
+  \item salida de \texttt{git tag -n} y evidencia de que \texttt{baseline-v1.1} está publicada.
+\end{enumerate}
+
+\noindent
+Estas capturas no estaban disponibles en el repositorio consultado para esta revisión, por lo que no
+se insertan imágenes ajenas ni se simula evidencia inexistente.
 
 \section{Declaración de uso de inteligencia artificial}
 
@@ -1402,7 +1452,9 @@ Claude (Anthropic) & Opus 4.1 / Sonnet 4.5 & Construcción de los instrumentos: 
 \midrule
 Claude (Anthropic) & Opus 4.1 / Sonnet 4.5 & Redacción de la comparativa de herramientas CASE y del contraste entre IR tradicional y ágil & \S9 y \S10 & Los juicios sobre Jira proceden del uso efectivo del equipo durante la práctica. Los relativos a las otras tres herramientas se contrastaron contra la documentación oficial de cada producto, citada en las referencias; ninguna celda se tomó de material comercial ni de sitios agregadores\\
 \midrule
-Ninguna & --- & Métricas de inspección, decisiones del CCB, conclusiones críticas y distribución del trabajo & \S4.5, \S6, \S11, \S12 & Se derivan de artefactos propios del equipo (registro consolidado, acta de sesión, historial de \emph{commits}) y se redactaron sin asistencia\\
+ChatGPT (OpenAI) & GPT-5.6 Thinking, agosto de 2026 & Revisión técnica del archivo \LaTeX{}, corrección de errores de compilación, contraste con el repositorio y cierre de las tablas de autoría y anexos & Portada, \S8, \S12 y Anexos A--E & Los conteos de commits y los nombres de archivos se contrastaron con el historial y las rutas públicas del repositorio; no se inventaron capturas, exportaciones ni etiquetas ausentes\\
+\midrule
+Ninguna & --- & Métricas de inspección, decisiones del CCB y conclusiones críticas & \S4.5, \S6 y \S11 & Se derivan de artefactos propios del equipo (registro consolidado y acta de sesión) y se mantienen como producción del equipo\\
 \bottomrule
 \end{tabular}
 \end{table}
