@@ -16,7 +16,7 @@ propio ERS.
 
 ---
 
-## [v1.1] — *(fecha del acta del CCB)*
+## [v1.1] — *(05/08/2026)*
 
 Línea base aprobada por el CCB tras la inspección formal tipo Fagan de la PE4. Etiqueta de Git:
 `baseline-v1.1`. Alcance inspeccionado: §1 a §7 (63 páginas efectivas). Registro completo de
