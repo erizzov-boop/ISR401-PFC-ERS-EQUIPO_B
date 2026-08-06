@@ -1,0 +1,77 @@
+# =====================================================================
+#  .gitignore — ISR401-PFC-ERS-EQUIPO_B (PE4, Unidad IV, ISR-401 UTEQ)
+#
+#  Los PDF SÍ se versionan: el gatekeeper G2 exige poder clonar el
+#  repositorio y reproducir el PDF, y los revisores comparan el PDF
+#  entregado con el compilado. Por eso *.pdf no está ignorado.
+# =====================================================================
+
+# --- Intermedios de LaTeX ---------------------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.xdy
+
+# --- BibTeX ------------------------------------------------------------
+*.bbl
+*.blg
+*.brf
+*.bcf
+*.run.xml
+
+# --- pgfplots / TikZ ---------------------------------------------------
+*.auxlock
+*.figlist
+*.makefile
+*.pgf-plot.gnuplot
+*.pgf-plot.table
+/figuras/externalized/
+
+# --- Editores y sistemas operativos ------------------------------------
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-workspace
+
+# --- Ofimática ---------------------------------------------------------
+~$*.docx
+~$*.xlsx
+~$*.pptx
+.~lock.*#
+
+# --- Nada de credenciales ni de datos personales sin enmascarar --------
+*.env
+credenciales*
+*token*
+*_sin_enmascarar.*
+
+# --- NO ignorar (recordatorio explícito) -------------------------------
+!01_ERS/*.pdf
+!05_Informe/*.pdf
+!03_CCB/*.pdf
+!06_Evidencias/**/*.png
+!06_Evidencias/**/*.jpg
